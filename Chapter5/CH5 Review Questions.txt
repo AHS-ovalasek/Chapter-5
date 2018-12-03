@@ -1,0 +1,29 @@
+Review Questions #1,4,6-11 -
+1. A
+4. D
+6. A
+7. B
+8. A
+9. C
+10. B
+11. A
+
+Find the Error #1,2,4 -
+1. The char variable again is never entered, the code would not run.
+2. Every iteration of the code will add the total to itself, this would not print numbers 1-100.
+4. There are more than 1 count++ in the code.
+
+Algorithm Workbench #6, 11 - 
+6.  for(count = 1; count <= 10; count++){
+	for(count2 = 1; count2 <= 15; count2++){
+	System.out.print("#");
+	}
+	System.out.println("");
+	}
+11. System.out.print("Enter a number 1-5");
+	number = keyboard.nextInt();
+	while(number >= 1 || number <= 5){
+	System.out.println("That number is invalid.");
+	System.out.print("Enter a number 1-5 please");
+	number = keyboard.nextInt();
+
